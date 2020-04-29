@@ -13,7 +13,7 @@ namespace CSharp_Linq
 
             //Aplicações dos filtros
             var resultado = listFrutas.Select(x => x.ToUpper()).OrderBy(x => x);
-
+            
             foreach (string resultadoFiltrado in resultado)
             {
                 Console.WriteLine(resultadoFiltrado);
